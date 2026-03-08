@@ -4,7 +4,7 @@
 
 ## 项目简介
 
-SimpleAPI Tool是一个由coolsky通过Trae进行Vibecoding开发的桌面应用程序，旨在通过调用SimpleTeX的API实现快速、准确的数学公式识别。用户只需截图数学公式并粘贴到应用中，即可获得对应的LaTeX代码，支持MathML格式一键粘贴到word。你可以通过conda配置环境后运行python文件，也可以直接从dist目录中下载exe文件运行(PyInstaller打包的)。
+SimpleAPI Tool是一个由coolsky通过Trae进行Vibecoding开发的桌面应用程序，旨在通过调用SimpleTeX的API实现快速、准确的数学公式识别。用户只需截图数学公式并粘贴到应用中，即可获得对应的LaTeX代码，支持MathML格式一键粘贴到word。你可以通过conda配置环境后运行python文件，也可以直接下载exe文件运行(PyInstaller打包的)。
 
 ## 功能特点
 
@@ -17,12 +17,9 @@ SimpleAPI Tool是一个由coolsky通过Trae进行Vibecoding开发的桌面应用
 
 ## 安装步骤
 
-### 1. 克隆项目
+### 1. 下载项目
 
-```bash
-git clone https://github.com/yourusername/simpleapi.git
-cd simpleapi
-```
+download zip然后解压到本地文件夹, 再cd进去
 
 ### 2. 创建虚拟环境
 
@@ -65,13 +62,12 @@ simpleapi/
 ├── config.json          # 配置文件（存储API密钥）
 ├── logo.ico             # 应用图标
 ├── README.md            # 项目说明文件
-├── build/               # 打包输出目录
-└── dist/                # 可执行文件目录
+└── simpleapi_app.exe    # windows可执行exe文件
 ```
 
 ## 技术栈
 
-- **Python 3.7+**：主要开发语言
+- **Python 3.10**：主要开发语言
 - **tkinter**：GUI框架
 - **PIL (Pillow)**：图像处理
 - **requests**：API调用
